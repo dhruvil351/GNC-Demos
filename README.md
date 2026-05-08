@@ -1,4 +1,4 @@
-# GNC Codes
+# GNC Demos
 
 A collection of Guidance, Navigation, and Control (GNC) simulations and demonstrations built in Python.
 
@@ -14,10 +14,11 @@ A 24-hour strapdown inertial navigation system simulation that integrates IMU se
 - Vertical channel damping (PD controller) to suppress the inherent Schuler instability
 - Generates a full Earth-orbit trajectory plot in the ECI frame
 
-**Output:**  
+**Output:**
+
 | | |
 |:---:|:---:|
-| ![Strapdown Circle](IMU/IMU2.png) | ![Strapdown Solution](IMU/IMU1.png) |
+| ![Strapdown Circle](strapdown_circle.png) | ![Strapdown Solution](strapdown_solution.png) |
 
 ---
 
@@ -30,8 +31,9 @@ Demonstrates unconstrained numerical optimization by minimizing the classic Rose
 - Logarithmic contour visualization of the objective landscape
 - Convergence to the known global minimum at (1, 1)
 
-**Output:**  
-![Optimization Result](mission%20design/minima.png)
+**Output:**
+
+![Optimization Result](optimization_result.png)
 
 ---
 
